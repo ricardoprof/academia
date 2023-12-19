@@ -1,22 +1,22 @@
 @extends('layout.layout')
 
-@section('title','Modalidade')
+@section('title','Aulas')
 
 @section('conteudo')
 
     <!--==============================
     Breadcumb
     ============================== -->
-    <div class="breadcumb-wrapper" data-bg-src="{{ asset('img/modalidade/banner01.png') }}">
+    <div class="breadcumb-wrapper" data-bg-src="{{ asset('img/aulas/banner01.png') }}">
         <!-- bg animated image/ -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcumb-content">
-                        <h1 class="breadcumb-title">Modalidades</h1>
+                        <h1 class="breadcumb-title">Aulas</h1>
                         <ul class="breadcumb-menu">
                             <li><a href="/">HOME</a></li>
-                            <li class="active">MODALIDADES</li>
+                            <li class="active">AULAS</li>
                         </ul>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
     <!--==============================
     Cta Area
     ==============================-->
-    <section class="cta-area space" data-bg-src="{{ asset('img/modalidade/banner02.png') }}">
+    <section class="cta-area space" data-bg-src="{{ asset('img/aulas/banner01.png') }}">
         <div class="container">
             <div class="row justify-content-lg-end justify-content-center">
                 <div class="col-xl-6 col-lg-8 col-md-10">
@@ -134,21 +134,21 @@
     <section class="blog-area space">
         <div class="container">
             <div class="title-area text-center">
-                <h2 class="sec-title">Conheça as Modalidades</h2>
+                <h2 class="sec-title">Conheça as Nossas Aulas</h2>
             </div>
             <div class="row global-carousel blog-slider" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2" data-sm-slide-show="1" data-xs-slide-show="1" data-dots="false" data-md-dots="true">
                 <div class="col-md-6 col-lg-4">
                     <div class="blog-card">
                         <div class="blog-img">
-                            <img src="{{ asset('img/modalidade/musculacao.jpg') }}" alt="blog image">
+                            <img src="{{ asset('img/aulas/danca.jpg') }}" alt="blog image">
                         </div>
                         <div class="blog-content" data-bg-src="{{ asset('img/blog/blog_card1_bg.png') }}">
                             <div class="blog-meta">
                                 <a href="blog.html"><i class="fal fa-calendar"></i>Segunda-Feira</a>
                                 <a href="blog.html"><i class="far fa-user"></i>Prof. André</a>
                             </div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">Musculação</a></h3>
-                            <p class="blog-text">Desenvolva sua força e esculpa seu corpo na nossa academia de musculação totalmente equipada, onde cada levantamento é um passo em direção aos seus objetivos fitness.</p>
+                            <h3 class="blog-title box-title"><a href="blog-details.html">Dança</a></h3>
+                            <p class="blog-text">As aulas de dança são uma ótima maneira de atrair públicos diferenciados e, até mesmo, de instigar as pessoas que fazem musculação a movimentar seu corpo de um jeito diferente.</p>
                         </div>
                     </div>
                 </div>
@@ -156,15 +156,15 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="blog-card">
                         <div class="blog-img">
-                            <img src="{{ asset('img/modalidade/alongamento.jpg') }}" alt="blog image">
+                            <img src="{{ asset('img/aulas/spinning.jpg') }}" alt="blog image">
                         </div>
                         <div class="blog-content" data-bg-src="{{ asset('img/blog/blog_card1_bg.png') }}">
                             <div class="blog-meta">
                                 <a href="blog.html"><i class="fal fa-calendar"></i>Terça-Feira</a>
                                 <a href="blog.html"><i class="far fa-user"></i>Prof. Julia</a>
                             </div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">Alongamento</a></h3>
-                            <p class="blog-text">Liberte a flexibilidade do seu corpo e mente em nossas aulas de alongamento, criadas para promover bem-estar físico e mental através de movimentos suaves e conscientes.</p>
+                            <h3 class="blog-title box-title"><a href="blog-details.html">Spinning</a></h3>
+                            <p class="blog-text">Normalmente, a prática conta com um clima bem animado e motivacional, com o uso de músicas e luzes. Os exercícios são ideais para melhorar o condicionamento físico, além de auxiliar no fortalecimento dos músculos inferiores.</p>
                         </div>
                     </div>
                 </div>
@@ -172,15 +172,15 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="blog-card">
                         <div class="blog-img">
-                            <img src="{{ asset('img/modalidade/artesmarciais.jpg') }}" alt="blog image">
+                            <img src="{{ asset('img/aulas/yoga.jpg') }}" alt="blog image">
                         </div>
                         <div class="blog-content" data-bg-src="{{ asset('img/blog/blog_card1_bg.png') }}">
                             <div class="blog-meta">
                                 <a href="blog.html"><i class="fal fa-calendar"></i>Quarta-Feira</a>
                                 <a href="blog.html"><i class="far fa-user"></i>Prof. Marcos</a>
                             </div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">Artes Marciais</a></h3>
-                            <p class="blog-text">Desperte o guerreiro interior e aprimore suas habilidades de autodefesa em nossas aulas de artes marciais, onde disciplina e respeito se encontram para criar uma jornada de crescimento pessoal.</p>
+                            <h3 class="blog-title box-title"><a href="blog-details.html">Yoga</a></h3>
+                            <p class="blog-text">Um pouco diferente dos outros tipos de aulas coletivas de academia, o yoga é uma atividade menos intensa, mas que ainda traz inúmeros benefícios para a saúde. É uma excelente opção para quem deseja diminuir o estresse, aliviar a ansiedade, melhorar o equilíbrio e a elasticidade do corpo.</p>
                         </div>
                     </div>
                 </div>
@@ -188,15 +188,15 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="blog-card">
                         <div class="blog-img">
-                            <img src="{{ asset('img/modalidade/cardio.jpg') }}" alt="blog image">
+                            <img src="{{ asset('img/aulas/ginastica.jpg') }}" alt="blog image">
                         </div>
                         <div class="blog-content" data-bg-src="{{ asset('img/blog/blog_card1_bg.png') }}">
                             <div class="blog-meta">
                                 <a href="blog.html"><i class="fal fa-calendar"></i>Quinta-Feira</a>
                                 <a href="blog.html"><i class="far fa-user"></i>Prof. André</a>
                             </div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">Cardio</a></h3>
-                            <p class="blog-text">Transforme sua energia em resultados tangíveis com nossas sessões de cardio dinâmicas, projetadas para queimar calorias, fortalecer o coração e proporcionar uma explosão de vitalidade.</p>
+                            <h3 class="blog-title box-title"><a href="blog-details.html">Ginástica</a></h3>
+                            <p class="blog-text">A ginástica coletiva é um modelo de atividade física que costuma ser menos cansativo, mas que ajuda a aquecer o corpo, alongar e trabalhar diferentes músculos. Para isso, reúne uma série de movimentos praticados regularmente para desenvolver flexibilidade e elasticidade no corpo e nos membros.</p>
                         </div>
                     </div>
                 </div>
@@ -204,15 +204,15 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="blog-card">
                         <div class="blog-img">
-                            <img src="{{ asset('img/modalidade/crossfit.jpg') }}" alt="blog image">
+                            <img src="{{ asset('img/aulas/jump.jpg') }}" alt="blog image">
                         </div>
                         <div class="blog-content" data-bg-src="{{ asset('img/blog/blog_card1_bg.png') }}">
                             <div class="blog-meta">
                                 <a href="blog.html"><i class="fal fa-calendar"></i>Sexta-Feira</a>
                                 <a href="blog.html"><i class="far fa-user"></i>Prof. Marcos</a>
                             </div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">Crossfit</a></h3>
-                            <p class="blog-text">Entre em um novo nível de condicionamento físico total com nossas intensas sessões de crossfit, desafiando seus limites e promovendo um corpo funcional e resistente.</p>
+                            <h3 class="blog-title box-title"><a href="blog-details.html">Jump</a></h3>
+                            <p class="blog-text">Consiste no uso de um pequeno trampolim individual, no qual as alunas executam exercícios pulando. Por ser realizado na cama elástica, estimula o equilíbrio corporal com a postura correta. Além disso, fortalece diferentes músculos, como coxas, panturrilhas, glúteos, abdômen e lombar.</p>
                         </div>
                     </div>
                 </div>
@@ -220,15 +220,15 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="blog-card">
                         <div class="blog-img">
-                            <img src="{{ asset('img/modalidade/natacao.jpg') }}" alt="blog image">
+                            <img src="{{ asset('img/aulas/pilates.jpg') }}" alt="blog image">
                         </div>
                         <div class="blog-content" data-bg-src="{{ asset('img/blog/blog_card1_bg.png') }}">
                             <div class="blog-meta">
                                 <a href="blog.html"><i class="fal fa-calendar"></i>Sábado</a>
                                 <a href="blog.html"><i class="far fa-user"></i>Prof. Julia</a>
                             </div>
-                            <h3 class="blog-title box-title"><a href="blog-details.html">Natação</a></h3>
-                            <p class="blog-text">Mergulhe em um mundo de saúde e bem-estar com nossas aulas de natação, onde a técnica aprimorada e o condicionamento cardiovascular se encontram para criar uma experiência aquática única.</p>
+                            <h3 class="blog-title box-title"><a href="blog-details.html">Pilates</a></h3>
+                            <p class="blog-text">As aulas de pilates podem ser feitas tanto com o uso de aparelhos, quanto sem. Assim como o yoga, é ideal para quem deseja aliviar a tensão de dores crônicas, sem forçar muito as articulações.</p>
                         </div>
                     </div>
                 </div>

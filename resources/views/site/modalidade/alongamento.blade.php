@@ -1,22 +1,22 @@
 @extends('layout.layout')
 
-@section('title','Modalidade - Musculação')
+@section('title','Modalidade - Alongamento')
 
 @section('conteudo')
 
     <!--==============================
     Breadcumb
     ============================== -->
-    <div class="breadcumb-wrapper" data-bg-src="{{ asset('img/modalidade/banner03.png') }}">
+    <div class="breadcumb-wrapper" data-bg-src="{{ asset('img/modalidade/banner02.png') }}">
         <!-- bg animated image/ -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcumb-content">
-                        <h1 class="breadcumb-title">Detalhes de Musculação</h1>
+                        <h1 class="breadcumb-title">Detalhes de Alongamento</h1>
                         <ul class="breadcumb-menu">
                             <li><a href="index.html">HOME</a></li>
-                            <li class="active">MUSCULAÇÃO</li>
+                            <li class="active">ALONGAMENTO</li>
                         </ul>
                     </div>
                 </div>
@@ -34,12 +34,12 @@
                 <div class="col-xxl-8 col-lg-7">
                     <div class="service-page-single">
                         <div class="page-img mb-50">
-                            <img src="{{ asset('img/modalidade/musculacao.jpg') }}" alt="img">
+                            <img src="{{ asset('img/modalidade/alongamento.jpg') }}" alt="img">
                         </div>
                         <div class="page-content">
-                            <h2 class="page-title">Musculação</h2>
-                            <p class="mb-30">Descubra o poder transformador da musculação em nossa academia, onde cada série se torna um passo em direção à força, resistência e escultura do corpo dos seus sonhos. Com equipamentos de última geração e orientação especializada, estamos aqui para ajudá-lo a alcançar seus objetivos de fitness e elevar seu potencial ao máximo. Entre no ritmo da mudança e descubra o verdadeiro significado do esforço recompensado.</p>
-                            <p class="mb-50">Na nossa seção de musculação, não se trata apenas de levantar pesos, mas sim de construir uma base sólida para uma vida mais saudável e vigorosa. Com uma variedade de máquinas e pesos livres, oferecemos um ambiente inspirador para iniciantes e atletas experientes. Nossos instrutores especializados estão sempre disponíveis para fornecer orientação personalizada, garantindo que cada movimento seja executado com precisão e eficácia. Na jornada da musculação conosco, não só fortalecerá seus músculos, mas também cultivará uma mentalidade resiliente e determinada que transcende os limites do ginásio, impactando positivamente todos os aspectos da sua vida. Junte-se a nós e descubra a verdadeira essência da transformação física e mental.</p>
+                            <h2 class="page-title">Alongamento</h2>
+                            <p class="mb-30">Em nosso espaço dedicado ao alongamento, convidamos você a mergulhar em uma experiência revigorante que estende além dos limites do físico, alcançando uma harmonia profunda entre corpo e mente. Nossas aulas são cuidadosamente projetadas para proporcionar momentos de relaxamento e renovação, promovendo a flexibilidade e a liberdade de movimento. Guiados por instrutores especializados, os participantes são conduzidos por sequências de alongamento que não apenas aliviam a tensão muscular, mas também incentivam uma consciência plena do corpo.</p>
+                            <p class="mb-50">Seja você um atleta dedicado, um profissional atarefado ou alguém em busca de um refúgio para o estresse diário, nosso espaço de alongamento oferece um santuário onde a busca pela serenidade se encontra com os benefícios tangíveis para o corpo, resultando em uma sensação de bem-estar que transcende a sala de aula. Descubra o poder transformador do alongamento que vai além dos músculos, nutrindo sua vitalidade e equilíbrio interior.</p>
                             <h3 class="page-subtitle mb-0">Porque escolher-nos?</h3>
                             <p>Existem vários motivos pelos quais você deve nos escolher:</p>
                             <div class="row">
@@ -58,7 +58,7 @@
                             </div>
                             <p class="mt-25 mb-50">Oferecemos uma ampla gama de serviços e programas de condicionamento físico para atender a diferentes níveis, interesses e objetivos de condicionamento físico. Quer procure treino pessoal, aulas de fitness em grupo, treinos especializados ou orientação nutricional, temos opções que se adaptam às suas necessidades.</p>
                             <h3 class="page-subtitle mb-0">Porque escolher-nos?</h3>
-                            <div class="service-page-list checklist mb-50" data-bg-src="{{ asset('img/modalidade/musculacao.jpg') }}">
+                            <div class="service-page-list checklist mb-50" data-bg-src="{{ asset('img/modalidade/alongamento.jpg') }}">
                                 <ul>
                                     <li><i class="far fa-check-circle"></i>Programa de treino qualificado.</li>
                                     <li><i class="far fa-check-circle"></i>Sobrecarga progressiva.</li>
@@ -113,7 +113,7 @@
                             <h3 class="widget_title">Todos os Serviços</h3>
                             <ul>
                                 <li>
-                                    <a href="{{ url('/modalidade/alongamento') }}"><i class="fa-solid fa-arrow-right"></i>Alongamento</a>
+                                    <a href="{{ url('/modalidade/musculacao') }}"><i class="fa-solid fa-arrow-right"></i>Musculação</a>
                                 </li>
                                 <li>
                                     <a href="{{ url('/modalidade/artes-marciais') }}"><i class="fa-solid fa-arrow-right"></i>Artes Marciais</a>

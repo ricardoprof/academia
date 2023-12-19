@@ -1,22 +1,22 @@
 @extends('layout.layout')
 
-@section('title','Modalidade - Musculação')
+@section('title','Modalidade - Natação')
 
 @section('conteudo')
 
     <!--==============================
     Breadcumb
     ============================== -->
-    <div class="breadcumb-wrapper" data-bg-src="{{ asset('img/modalidade/banner03.png') }}">
+    <div class="breadcumb-wrapper" data-bg-src="{{ asset('img/modalidade/banner02.png') }}">
         <!-- bg animated image/ -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="breadcumb-content">
-                        <h1 class="breadcumb-title">Detalhes de Musculação</h1>
+                        <h1 class="breadcumb-title">Detalhes de Natação</h1>
                         <ul class="breadcumb-menu">
                             <li><a href="index.html">HOME</a></li>
-                            <li class="active">MUSCULAÇÃO</li>
+                            <li class="active">NATAÇÃO</li>
                         </ul>
                     </div>
                 </div>
@@ -34,12 +34,12 @@
                 <div class="col-xxl-8 col-lg-7">
                     <div class="service-page-single">
                         <div class="page-img mb-50">
-                            <img src="{{ asset('img/modalidade/musculacao.jpg') }}" alt="img">
+                            <img src="{{ asset('img/modalidade/natacao.jpg') }}" alt="img">
                         </div>
                         <div class="page-content">
-                            <h2 class="page-title">Musculação</h2>
-                            <p class="mb-30">Descubra o poder transformador da musculação em nossa academia, onde cada série se torna um passo em direção à força, resistência e escultura do corpo dos seus sonhos. Com equipamentos de última geração e orientação especializada, estamos aqui para ajudá-lo a alcançar seus objetivos de fitness e elevar seu potencial ao máximo. Entre no ritmo da mudança e descubra o verdadeiro significado do esforço recompensado.</p>
-                            <p class="mb-50">Na nossa seção de musculação, não se trata apenas de levantar pesos, mas sim de construir uma base sólida para uma vida mais saudável e vigorosa. Com uma variedade de máquinas e pesos livres, oferecemos um ambiente inspirador para iniciantes e atletas experientes. Nossos instrutores especializados estão sempre disponíveis para fornecer orientação personalizada, garantindo que cada movimento seja executado com precisão e eficácia. Na jornada da musculação conosco, não só fortalecerá seus músculos, mas também cultivará uma mentalidade resiliente e determinada que transcende os limites do ginásio, impactando positivamente todos os aspectos da sua vida. Junte-se a nós e descubra a verdadeira essência da transformação física e mental.</p>
+                            <h2 class="page-title">Natação</h2>
+                            <p class="mb-30">Dê um mergulho em um mundo de bem-estar e vitalidade em nosso espaço dedicado à natação. Nossas aulas oferecem não apenas a oportunidade de aprimorar as habilidades aquáticas, mas também um refúgio tranquilo para revitalizar mente e corpo. Guiados por instrutores qualificados, desde iniciantes até nadadores experientes, todos encontrarão um ambiente acolhedor para aprimorar a técnica, a resistência e a confiança na água.</p>
+                            <p class="mb-50">Seja você um entusiasta da natação por lazer ou alguém buscando melhorar o condicionamento cardiovascular, nosso centro aquático proporciona uma experiência única. Descubra os benefícios terapêuticos da natação enquanto flui em direção a uma jornada de saúde, relaxamento e alegria. Junte-se a nós para explorar as águas da transformação física e mental.</p>
                             <h3 class="page-subtitle mb-0">Porque escolher-nos?</h3>
                             <p>Existem vários motivos pelos quais você deve nos escolher:</p>
                             <div class="row">
@@ -58,7 +58,7 @@
                             </div>
                             <p class="mt-25 mb-50">Oferecemos uma ampla gama de serviços e programas de condicionamento físico para atender a diferentes níveis, interesses e objetivos de condicionamento físico. Quer procure treino pessoal, aulas de fitness em grupo, treinos especializados ou orientação nutricional, temos opções que se adaptam às suas necessidades.</p>
                             <h3 class="page-subtitle mb-0">Porque escolher-nos?</h3>
-                            <div class="service-page-list checklist mb-50" data-bg-src="{{ asset('img/modalidade/musculacao.jpg') }}">
+                            <div class="service-page-list checklist mb-50" data-bg-src="{{ asset('img/modalidade/natacao.jpg') }}">
                                 <ul>
                                     <li><i class="far fa-check-circle"></i>Programa de treino qualificado.</li>
                                     <li><i class="far fa-check-circle"></i>Sobrecarga progressiva.</li>
@@ -113,6 +113,9 @@
                             <h3 class="widget_title">Todos os Serviços</h3>
                             <ul>
                                 <li>
+                                    <a href="{{ url('/modalidade/musculacao') }}"><i class="fa-solid fa-arrow-right"></i>Musculação</a>
+                                </li>
+                                <li>
                                     <a href="{{ url('/modalidade/alongamento') }}"><i class="fa-solid fa-arrow-right"></i>Alongamento</a>
                                 </li>
                                 <li>
@@ -123,9 +126,6 @@
                                 </li>
                                 <li>
                                     <a href="{{ url('/modalidade/crossfit') }}"><i class="fa-solid fa-arrow-right"></i>Crossfit</a>
-                                </li>
-                                <li>
-                                    <a href="{{ url('/modalidade/natacao') }}"><i class="fa-solid fa-arrow-right"></i>Natação</a>
                                 </li>
                             </ul>
                         </div>

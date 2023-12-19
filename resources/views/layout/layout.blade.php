@@ -92,7 +92,7 @@
                 <ul class="menu">
                     <li><a href="{{ url('/sobre')}}">Sobre</a></li>
                     <li><a href="{{ url('/modalidade') }}">Modalidade</a></li>
-                    <li><a href="{{ url('/treino') }}">Treino</a></li>
+                    <li><a href="{{ url('/aulas') }}">Aulas</a></li>
                     <li><a href="{{ url('/noticia') }}">Notícia</a></li>
                     <li><a href="{{ url('/contato') }}">Contato</a></li>
                 </ul>
@@ -118,45 +118,25 @@
                         <a href="{{ url('/sobre') }}">Sobre</a>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="#">Pages</a>
+                        <a href="{{ url('/modalidade') }}">Modalidade</a>
                         <ul class="sub-menu">
-                            <li><a href="team.html">Team Page</a></li>
-                            <li><a href="team-2.html">Team Page 02</a></li>
-                            <li><a href="team-details.html">Team Details</a></li>
-                            <li><a href="gallery.html">Gallery Page</a></li>
-                            <li><a href="gallery-2.html">Gallery Page 02</a></li>
-                            <li><a href="project.html">Project Page</a></li>
-                            <li><a href="project-details.html">Project Details</a></li>
-                            <li><a href="shop.html">Shop Page</a></li>
-                            <li><a href="shop-details.html">Shop Details</a></li>
-                            <li><a href="pricing.html">Pricing Page</a></li>
-                            <li><a href="error.html">Error Page</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Project</a>
-                        <ul class="sub-menu">
-                            <li><a href="project.html">Projects</a></li>
-                            <li><a href="project-details.html">Project Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Service</a>
-                        <ul class="sub-menu">
-                            <li><a href="service.html">Service</a></li>
-                            <li><a href="service-details.html">Service Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="menu-item-has-children">
-                        <a href="#">Blog</a>
-                        <ul class="sub-menu">
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="blog-2.html">Blog 02</a></li>
-                            <li><a href="blog-details.html">Blog Details</a></li>
+                            <li><a href="{{ url('/modalidade/musculacao') }}">Musculação</a></li>
+                            <li><a href="{{ url('/modalidade/alongamento') }}">Alongamento</a></li>
+                            <li><a href="{{ url('/modalidade/artes-marciais') }}">Artes Marciais</a></li>
+                            <li><a href="{{ url('/modalidade/cardio') }}">Cardio</a></li>
+                            <li><a href="{{ url('/modalidade/crossfit') }}">Crossfit</a></li>
+                            <li><a href="{{ url('/modalidade/natacao') }}">Natação</a></li>
+
                         </ul>
                     </li>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <a href="{{ url('/aulas') }}">Aulas</a>
+                    </li>
+                    <li>
+                        <a href="{{ url('/noticia') }}">Notícia</a>
+                    </li>
+                    <li>
+                        <a href="{{ url('/contato') }}">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -174,7 +154,7 @@
                         <div class="header-links">
                             <ul>
                                 <li><i class="far fa-envelope"></i><a
-                                        href="mailto:info@gmail.com">contato@vivabem.com.br</a></li>
+                                        href="mailto:vivabem@tipi01.smpsistema.com.br">vivabem@tipi01.smpsistema.com.br</a></li>
                                 <li><i class="far fa-clock"></i>Seg - Dom: 8.00 am - 23.00 pm</li>
                             </ul>
                         </div>
@@ -204,7 +184,7 @@
                     <div class="row align-items-center justify-content-lg-start justify-content-between">
                         <div class="col-auto">
                             <div class="header-logo">
-                                <a href="index.html"><img src="{{ asset('img/logoVivaBem.svg') }}"
+                                <a href="{{ url('/') }}"><img src="{{ asset('img/logoVivaBem.svg') }}"
                                         alt="logo"></a>
                             </div>
                         </div>
@@ -212,7 +192,7 @@
                             <nav class="main-menu d-none d-lg-inline-block">
                                 <ul>
                                     <li>
-                                        <a href="{{ url('/home') }}">Home</a>
+                                        <a href="{{ url('/') }}">Home</a>
                                     </li>
                                     <li>
                                         <a href="{{ url('/sobre') }}">Sobre</a>
@@ -221,24 +201,16 @@
                                         <a href="{{ url('/modalidade') }}">Modalidade</a>
                                         <ul class="sub-menu">
                                             <li><a href="{{ url('/modalidade/musculacao') }}">Musculação</a></li>
-                                            <li><a href="{{ url('/aerobica') }}">Aeróbica</a></li>
-                                            <li><a href="{{ url('/pilates') }}">Pilates</a></li>
-                                            <li><a href="{{ url('/yoga') }}">Yoga</a></li>
-                                            <li><a href="{{ url('/treinamento-funcional') }}">Treinamento
-                                                    Funcional</a></li>
-                                            <li><a href="{{ url('/zumba') }}">Zumba</a></li>
-                                            <li><a href="{{ url('/crossfit') }}">CrossFit</a></li>
-                                            <li><a href="{{ url('/natacao') }}">Natação</a></li>
-                                            <li><a href="{{ url('/artes-marciais') }}">Artes Marciais</a></li>
-                                            <li><a href="{{ url('/alongamento-flexibilidade') }}">Alongamento e
-                                                    Flexibilidade</a></li>
-                                            <li><a href="{{ url('/treino-cardiovascular') }}">Treino
-                                                    Cardiovascular</a></li>
+                                            <li><a href="{{ url('/modalidade/alongamento') }}">Alongamento</a></li>
+                                            <li><a href="{{ url('/modalidade/artes-marciais') }}">Artes Marciais</a></li>
+                                            <li><a href="{{ url('/modalidade/cardio') }}">Cardio</a></li>
+                                            <li><a href="{{ url('/modalidade/crossfit') }}">Crossfit</a></li>
+                                            <li><a href="{{ url('/modalidade/natacao') }}">Natação</a></li>
 
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="{{ url('/treino') }}">Treino</a>
+                                        <a href="{{ url('/aulas') }}">Aulas</a>
                                     </li>
                                     <li>
                                         <a href="{{ url('/noticia') }}">Notícia</a>
@@ -246,7 +218,6 @@
                                     <li>
                                         <a href="{{ url('/contato') }}">Contato</a>
                                     </li>
-
                                 </ul>
                             </nav>
                             <div class="navbar-right d-inline-flex d-lg-none">
@@ -261,7 +232,7 @@
                         </div>
                         <div class="col-auto d-none d-lg-block">
                             <div class="header-button">
-                                <a href="contact.html" class="btn style2 style-r0 d-xl-block d-none">
+                                <a href="{{ url('/contato') }}" class="btn style2 style-r0 d-xl-block d-none">
                                     Obtenha uma cotação
                                 </a>
                                 <button type="button" class="btn style-r0 btn-border3 sideMenuToggler">
@@ -274,7 +245,6 @@
             </div>
         </div>
     </header>
-
 
     <main class="conteiner">
         @yield('conteudo')
@@ -291,7 +261,7 @@
                         <div class="widget footer-widget">
                             <div class="widget-about">
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src="{{ asset('img/logoVivaBem.svg') }}" alt="Fitmas"></a>
+                                    <a href="{{ url('/') }}"><img src="{{ asset('img/logoVivaBem.svg') }}" alt="Fitmas"></a>
                                 </div>
                                 <p class="about-text">Fundada em 2023, nossa academia tem se empenhado em oferecer um ambiente acolhedor e motivador.</p>
                                 <div class="social-btn">
@@ -309,7 +279,7 @@
                                 <ul class="menu">
                                     <li><a href="{{ url('/sobre') }}">Sobre Nós</a></li>
                                     <li><a href="{{ url('/modalidade') }}">Modalidades</a></li>
-                                    <li><a href="{{ url('/treino') }}">Treinos</a></li>
+                                    <li><a href="{{ url('/aulas') }}">Aulas</a></li>
                                     <li><a href="{{ url('/noticia') }}">Notícias</a></li>
                                     <li><a href="{{ url('/contato') }}">Contato</a></li>
                                 </ul>
@@ -351,12 +321,13 @@
                         <div class="widget footer-widget">
                             <h3 class="widget_title">Receba boletim informativo</h3>
                             <p class="footer-text">Ganhe 10% de desconto na sua matrícula! Se apresse</p>
-                            <form class="newsletter-form">
+                            <form action="{{ route('contato.enviarnew') }}" method="POST" class="newsletter-form" id="formContato">
+                                @csrf
                                 <div class="form-group">
                                     <i class="far fa-envelope"></i>
-                                    <input class="form-control" type="email" placeholder="E-mail" required="">
+                                    <input class="form-control" name="emailnew" type="email" placeholder="E-mail" required="">
                                 </div>
-                                <button type="submit" class="btn style-r0 style2">Inscreva-se</button>
+                                <input type="submit" value="Inscreva-se" class="btn style-r0 style2 btnInscrever">
                             </form>
                         </div>
                     </div>
@@ -366,7 +337,7 @@
         <div class="copyright-wrap">
             <div class="container">
                 <div class="row justify-content-center">
-                    <div class="col-auto align-self-center"><p class="copyright-text text-center">© 2023 <a href="#">Viva Bem.</a> Todos os direitos reservados.</p></div>
+                    <div class="col-auto align-self-center"><p class="copyright-text text-center">© 2023 <a href="{{ url('/') }}">Viva Bem.</a> Todos os direitos reservados.</p></div>
                 </div>
             </div>
         </div>
